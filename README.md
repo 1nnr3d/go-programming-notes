@@ -1,5 +1,12 @@
 <h1>Notes ✏</h1>
 <p>
+  <h3> 'package' nedir? </h3>
+  
+  <p>
+    Go dilinde kod organizasyonu paketler ile sağlanır. 
+    hem kod içerisinde kullandığımız kütüphaneler hem de ana kodumuz aslında birer pakettir.
+  </p>
+  
   <h3>Veri tipleri:</h3>
   
   ```go 
