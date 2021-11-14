@@ -9,6 +9,7 @@
   <h3>Veri tipleri:</h3>
   
   <p>
+  
   ```go 
     var yazi string = "Hello World!"
     var sayi int = 12345
