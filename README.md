@@ -1,5 +1,4 @@
-<h1>Notes ✏</h1>
-<p>
+  <h1>Notes ✏</h1>
   <h3> 'package' nedir? </h3>
   
   <p>
@@ -9,6 +8,7 @@
   
   <h3>Veri tipleri:</h3>
   
+  <p>
   ```go 
     var yazi string = "Hello World!"
     var sayi int = 12345
@@ -18,4 +18,13 @@
   ```
   **Not**: go kullanmadığımız hiç bir yapıyı barındırmaz!<br>
   **string format**: `fmt.printf("veri türü: %T", bilinmeyen) //bize bilinmeyen değişkeninin veri tipini verir "%T"`
-</p>
+  </p>
+  
+  <h4>Örnek modül yapısı:</h4>
+  <p>
+    öncelikle bir modül dosyamızı ve klasörümüzü oluşturalım.
+    bir tane "testmodules" diye bir klasör oluşturalım ve bunun içerisinede "module1.go" dosyamızı oluşturalım.
+    daha sonra ise "module1.go" isimli modülümüzü kullanabilmek için terminale `go mod init examplemodule` yazıp enter tuşuna basıyoruz..
+    modülümüz oluşturulduktan sonra "go.mod" adında bir dosya gelecek buranın içerisinde "go"muzun sürümü ve oluşturduğumuz modülümüzün ismi bulunmaktadır.
+    ve dosyalarımızı oluşturduk gerekli işlemlerimizi yaptığımıza göre modülü kullanmak için dosya içerisine dahil edelim. bunun için ise "import" anahtar kelimesini         kullanıyoruz örnek: `import "examplemodule/testmodules"` artık "testmodules" klasörümüzün içerisindeki tüm modülleri kullanabiliyoruz.. 
+  </p>
