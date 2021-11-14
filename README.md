@@ -21,17 +21,22 @@
   </p>
   
   <h4>Örnek modül yapısı:</h4>
-  <p>
   
-    1.klasör oluştur.
-    2.klasör içerisine örnek bir dosya oluştur. (örnek: "module1.go)
-    3.terminale `go mod init <modül ismi>` yazıp enter tuşuna basıyoruz.
-    4.main.go içerisine `ìmport <modül ismi>/<modüllerin bulunduğu klasör ismi>` örnek: golesson/testmodules
-    5.ve artık klasör içerisinde bulunan go dosyalarımızı yani kendi yazdığımız modülleri main.go içerisinde kullanabiliyoruz.
+   **Not: Her şey bir paket olduğu için aslında import ettiğimiz her şey burada oluşturduğumuz modüller gibidir..**
   
+   <p>
     öncelikle bir modül dosyamızı ve klasörümüzü oluşturalım.
     bir tane "testmodules" diye bir klasör oluşturalım ve bunun içerisinede "module1.go" dosyamızı oluşturalım.
     daha sonra ise "module1.go" isimli modülümüzü kullanabilmek için terminale `go mod init examplemodule` yazıp enter tuşuna basıyoruz..
     modülümüz oluşturulduktan sonra "go.mod" adında bir dosya gelecek buranın içerisinde "go"muzun sürümü ve oluşturduğumuz modülümüzün ismi bulunmaktadır.
-    ve dosyalarımızı oluşturduk gerekli işlemlerimizi yaptığımıza göre modülü kullanmak için dosya içerisine dahil edelim. bunun için ise "import" anahtar kelimesini     kullanıyoruz örnek: `import "examplemodule/testmodules"` artık "testmodules" klasörümüzün içerisindeki tüm modülleri kullanabiliyoruz.. 
-  </p>
+    ve dosyalarımızı oluşturduk gerekli işlemlerimizi yaptığımıza göre modülü kullanmak için dosya içerisine dahil edelim. bunun için ise "import" anahtar kelimesini         kullanıyoruz örnek: `import "examplemodule/testmodules"` artık "testmodules" klasörümüzün içerisindeki tüm modülleri kullanabiliyoruz.. 
+   </p>
+   
+   <h5>Modül yapısı oluşturma algoritma şeklinde anlatım: </h5>
+    <ol>
+      <li> klasör oluştur. </li>
+      <li> klasör içerisine örnek bir dosya oluştur. (örnek: "module1.go) </li>
+      <li> terminale `go mod init <modül ismi>` yazıp enter tuşuna basıyoruz. </li>
+      <li> main.go içerisine `ìmport <modül ismi>/<modüllerin bulunduğu klasör ismi>` örnek: golesson/testmodules </li>
+      <li> ve artık klasör içerisinde bulunan go dosyalarımızı yani kendi yazdığımız modülleri main.go içerisinde kullanabiliyoruz. </li>
+    </ol>
