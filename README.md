@@ -1,6 +1,6 @@
 <h1>Notes ✏</h1>
 <p>
-  <h3>Değişkenler:</h3>
+  <h3>Veri tipleri:</h3>
   
   ```go 
     var yazi string = "Hello World!"
@@ -10,4 +10,5 @@
     bilinmeyen := 1 //burda hangi değeri verirseniz verin go tahmin yürütüp otomatik atama yapacaktır. 
   ```
   **Not**: go kullanmadığımız hiç bir yapıyı barındırmaz!
+  **string format**: `fmt.printf("veri türü: %T", bilinmeyen) //bize bilinmeyen değişkeninin veri tipini verir "%T"`
 </p>
