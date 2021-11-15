@@ -6,7 +6,7 @@
     hem kod içerisinde kullandığımız kütüphaneler hem de ana kodumuz aslında birer pakettir.
   </p>
   
-  <h3>Veri tipleri:</h3>
+  <h3> <code>TEMEL</code> Veri tipleri:</h3>
   
   <p>
   
