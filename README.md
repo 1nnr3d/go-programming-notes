@@ -15,6 +15,8 @@
     var sayi int = 12345
     var ondaliklisayi float32 = 0.5 //float64'de olabilirdi fakat sadece boyut değişmekte.
     var durum bool = false //yada true" bir durum belirtir.
+    
+    //go diline özel bir yapı:
     bilinmeyen := 1 //burda hangi değeri verirseniz verin go tahmin yürütüp otomatik veri tipi ataması yapacaktır. 
   ```
   **Not**: go kullanmadığımız hiç bir yapıyı barındırmaz!<br>
