@@ -31,7 +31,7 @@
     <ol>
       <li> klasör oluştur. </li>
       <li> klasör içerisine örnek bir dosya oluştur. (örnek: "module1.go) </li>
-      <li> terminale `go mod init <modül ismi>` yazıp enter tuşuna basıyoruz. </li>
-      <li> main.go içerisine `ìmport <modül ismi>/<modüllerin bulunduğu klasör ismi>` örnek: golesson/testmodules </li>
+      <li> terminale <code>go mod init $modül ismi$</code> yazıp enter tuşuna basıyoruz. </li>
+      <li> main.go içerisine <code>ìmport "$modül ismi$/$modüllerin bulunduğu klasör ismi$"</code>
       <li> ve artık klasör içerisinde bulunan go dosyalarımızı yani kendi yazdığımız modülleri main.go içerisinde kullanabiliyoruz. </li>
     </ol>
