@@ -6,7 +6,7 @@
     hem kod içerisinde kullandığımız kütüphaneler hem de ana kodumuz aslında birer pakettir.
   </p>
   
-  <h3> <code>TEMEL</code> Veri tipleri:</h3>
+  <h3> <code>TEMEL</code> Basit Veri tipleri:</h3>
   
   <p>
   
@@ -20,7 +20,12 @@
     bilinmeyen := 1 //burda hangi değeri verirseniz verin go tahmin yürütüp otomatik veri tipi ataması yapacaktır. 
   ```
   **Not**: go kullanmadığımız hiç bir yapıyı barındırmaz!<br>
-  **string format**: `fmt.printf("veri türü: %T", bilinmeyen) //bize bilinmeyen değişkeninin veri tipini verir "%T"`
+  **string format**: `fmt.printf("veri türü: %T", bilinmeyen) //bize bilinmeyen değişkeninin veri tipini verir "%T"`<br>
+  **string format türleri**: 
+  ```
+  %T değişkenin tipini gösterir.
+  %v değişkenin değerini gösterir.
+  ```
   </p>
   
   <h4>Örnek modül yapısı:</h4>
