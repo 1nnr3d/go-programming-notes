@@ -28,6 +28,18 @@
   ```
   </p>
   
+  <h4> Basit Tip dönüşümleri: </h4>
+  <p>
+    
+  ```go
+  int()
+  bool()
+  string()
+  float32() //float64()
+  ```
+  
+  </p>
+  
   <h4>Örnek modül yapısı:</h4>
   
    **Not: Her şey bir paket olduğu için aslında import ettiğimiz her şey burada oluşturduğumuz modüller gibidir..**
